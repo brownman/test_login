@@ -7,10 +7,10 @@ app.controller("ctrl0", ["$scope", "$location", function(a, b) {
 app.config(["$routeProvider", function(a) {
     a.caseInsensitiveMatch = !0,
     a.when("/login", {
-        templateUrl: "/templates/login.html",
+        templateUrl: "./templates/login.html",
         controller: "loginCtrl"
     }).when("/private", {
-        templateUrl: "/templates/private.html",
+        templateUrl: "./templates/private.html",
         controller: "privateCtrl"
     }).otherwise({
         redirectTo: "/login"

@@ -1,0 +1,29 @@
+<div>
+  <form novalidate>
+    <br> 
+    Credit card number
+    <input type="text" ng-model="card.credit_number"> 
+        <br> 
+    Card expiration (MM/YY) 
+   <input type="text" ng-model="card.exp_MM">
+     <input type="text" ng-model="card.exp_YY">
+    <br> 
+
+     Three digits on back of card    
+    <input type="text" ng-model="card.cvv">
+    <br> 
+
+         Card holder  
+    <input type="text" ng-model="card.card_holder">
+    <br> 
+
+         Postal/Zip code   
+    <input type="text" ng-model="card.post_zip">
+    <br> 
+
+    <button ng-click="submit()">המשך</button>
+     <pre> {{card | json }}</pre>
+  </form>
+  
+ 
+</div>

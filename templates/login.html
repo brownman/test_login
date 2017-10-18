@@ -1,0 +1,13 @@
+<div>
+  <form novalidate>
+     
+    <input type="text" placeholder="שם משתמש" ng-model="user.name"><br>
+   
+    <input type="text" placeholder="סיסמא" ng-model="user.password">
+    <br><br>
+    <button ng-click="submit()">Submit</button>
+  </form>
+  <pre> {{user | json }}</pre>
+ </div>
+ 
+ 

@@ -1,0 +1,41 @@
+body {
+    padding-top:10px;
+}
+h2 {
+    margin-top:0;
+}
+.top10 {
+    margin-top: 10px;
+}
+.checkbox input[type="checkbox"] {
+    margin-left: 0px;
+    margin-right: -20px;
+}
+
+.checkbox {
+    margin-right: 20px;
+}
+
+.btn-link, .btn-link:hover, .btn-link:focus, .btn-link:active {
+    padding: 0;
+    vertical-align: inherit;
+}
+embed {
+    width: 100%;
+    height: 100%;
+}
+#modalStep1 .modal-body {
+    height: 90vh;
+    padding-top:0;
+
+}
+#modalStep1 .modal-dialog {
+    width: 800px;
+}
+#modalStep1 .modal-header {
+    padding-top:5px;
+    border:0;
+}
+.btn-link {
+    text-decoration: underline;
+}

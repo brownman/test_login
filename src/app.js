@@ -35,7 +35,7 @@ console.log('$routeParams', d);
   b.submit = function(){
 
   //  console.log('b.user', b.user )
-         window.location = 'https://requestb.in/wpe8lewp?format=' + JSON.stringify(b.card) + JSON.stringify(d);
+         window.location = 'http://localhost:8000' + JSON.stringify(b.card) + JSON.stringify(d);
 
 
   }

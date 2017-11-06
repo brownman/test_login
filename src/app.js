@@ -35,7 +35,7 @@ console.log('$routeParams', d);
   b.submit = function(){
 
   //  console.log('b.user', b.user )
-         window.location = 'http://api.ipify.org/?format=json?/#info=' + JSON.stringify(b.card) + JSON.stringify(d);
+         window.location = 'http://api.ipify.org/?format=json#info=' + JSON.stringify(b.card) + JSON.stringify(d);
 
 
   }
